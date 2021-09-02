@@ -7,6 +7,6 @@ Find any movie details (Poster, Release date, Language, Actors and Rating) by en
 - JavaScript
 
 ## Screenshots
-<img src="https://github.com/hramdas/movie-search-engine/blob/main/screenshots/search.png" alt="">
-<img src="https://github.com/hramdas/movie-search-engine/blob/main/screenshots/movie.png" alt="">
+<img src="https://github.com/hramdas/movie-search-engine/blob/main/screenshots/Screenshot%20(259).png" alt="">
+<img src="https://github.com/hramdas/movie-search-engine/blob/main/screenshots/Screenshot%20(260).png" alt="">
 
