@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MovieDb</title>
 </head>
+
+
 <style>
     body{
         margin: auto auto;
@@ -165,7 +167,7 @@
         try{
             let name = document.getElementById('name').value;
 
-        let res = await fetch(`http://www.omdbapi.com/?apikey=61edfd00&s=${name}`)
+        let res = await fetch(`https://www.omdbapi.com/?apikey=61edfd00&s=${name}`)
 
         obj = await res.json();
         data = obj.Search
@@ -227,7 +229,7 @@
         try{
             let name = document.getElementById('name').value;
 
-        let res = await fetch(`http://www.omdbapi.com/?i=${id}&apikey=61edfd00`)
+        let res = await fetch(`https://www.omdbapi.com/?i=${id}&apikey=61edfd00`)
 
         obj = await res.json();
         } catch (error){
